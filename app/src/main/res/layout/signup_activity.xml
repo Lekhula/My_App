@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:layout_height="match_parent"
+    android:background="@drawable/dj_lady">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:layout_marginTop="259dp"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:background="@color/colordevider"
+            android:drawableLeft="@drawable/user_pro"
+            android:drawablePadding="35dp"
+            android:fontFamily="casual"
+            android:hint="Email"
+            android:inputType="text"
+            android:maxLength="25"
+            android:padding="6dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:background="@color/colordevider"
+            android:drawableLeft="@drawable/passwrd"
+            android:drawablePadding="35dp"
+            android:fontFamily="casual"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLength="8"
+            android:paddingTop="6dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SignUp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/rect"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
